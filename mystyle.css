@@ -1,0 +1,110 @@
+body {
+  font-family: 'Silkscreen', cursive;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: rgb(110, 187, 122);
+  height: 60px;
+  font-family: 'Silkscreen';
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 9999;
+}
+.nav-link:hover {
+  color: #111;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background-color: rgb(221, 199, 159);
+  padding-top: 7rem;
+}
+.jumbotron h1 {
+  font-family: 'Silkscreen';
+  font-weight: 400;
+}
+.jumbotron p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+.jumbotron img {
+  filter: grayscale(60%);
+  border-radius: 130px 200px;
+  border: 5px solid #111;
+}
+
+/*About*/
+.About {
+  background-color: #9892de;
+  padding-top: 7rem;
+}
+.About h2 {
+  color: #fff;
+  font-family: 'Silkscreen', cursive;
+  font-size: 40px;
+}
+.About p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #444;
+  font-weight: 400;
+}
+
+/*Card*/
+.Card {
+  background: linear-gradient(180deg, #9892de 0%, rgba(152, 146, 222, 0) 100%);
+  padding-top: 80px;
+}
+.Card h2 {
+  color: #fff;
+  font-family: 'Silkscreen', cursive;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+/*contact*/
+.contact {
+  min-height: 800px;
+  padding-top: 7rem;
+}
+.contact h2 {
+  color: #111;
+  font-family: 'Silkscreen', cursive;
+  font-size: 40px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: none;
+  border: 3px solid rgb(110, 187, 122);
+  transition: all ease-in-out 0.5s;
+  font-family: 'Silkscreen', cursive;
+}
+.btn:hover {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(110, 187, 122);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: #111;
+}
+
+/*Fotter*/
+.fotter {
+  height: 150px;
+  background-color: rgb(110, 187, 122);
+}
+.fotter p {
+  margin-top: 30px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+.fotter a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
